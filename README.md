@@ -4,7 +4,7 @@
     0) BIN\ConfuseEx 폴더는 있어야함
     1) UbiSam.KeyLock 빌드
     2) UbiCom.Net.Automata.SECS2 빌드
-    3) UbiSam.Net 빌드 -> BIN\Confused 폴더가 생성됨
+    3) UbiGEM.Net 빌드 -> BIN\Confused 폴더가 생성됨
     4) Confused 폴더 밑에 4개 화일을 복사 Setup\BIN Data\UbiGEM\BIN 폴더에 복사
     5) Setup\UbiGEM 폴더 네 UbiGEM.sln을 빌더
     6) Setup\Setup Files\ 폴더 내 UbiGEM.msi를 고객에게 제공함
