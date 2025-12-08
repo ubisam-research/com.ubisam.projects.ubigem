@@ -14,7 +14,7 @@
     - [📊 납품 절차](./docs/3.UbiGEM_납품절차.pptx)
 
 4. AS 가이드
-    - [📄 AS 가이드](./docs/4.UbiGEM_AS가이드.txt)
+    - [📄 AS 가이드](./docs/4.UbiGEM_AS가이드.md)
 
 5. FAQ
     - [📄 FAQ](./docs/5.UbiGEM_FAQ.txt)
