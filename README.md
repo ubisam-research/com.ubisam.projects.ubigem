@@ -42,18 +42,8 @@
     1) SEMI 장비 통신 표준 문서 (SEMI Equipment Communications Standard)
         - [📄 SEMI E5](./docs/SEMI/KE005-00-0813.pdf)
         - [📄 SEMI E30](./docs/SEMI/KE030-00-0611.pdf)
-        - [📄 SEMI E37](./docs/SEMI/KE037-00-0413.pdf) <br>
-       ⚠️**<span style="color:red">본 문서는 라이센스된 문서로 사외 유출 및 추가 공유 절대 금지</span>**
-
-[![주의: 사외 유출 금지](https://img.shields.io/badge/주의-사외%20유출%20금지-red)](#)
-
-[![주의](https://img.shields.io/badge/주의-사외%20유출%20금지-orange)](#)
-
-[![경고](https://img.shields.io/badge/경고-사외%20유출%20금지-red?style=flat-square)](#)
-
-> ⚠️ **[![주의: 사외 유출 금지](https://img.shields.io/badge/주의-사외%20유출%20금지-red?style=flat-square)](#)**  
-> **사외 유출 및 추가 공유 절대 금지 (사내 한으로 사용 요망)**
-
+        - [📄 SEMI E37](./docs/SEMI/KE037-00-0413.pdf) <br>       
+        ⚠️[![경고](https://img.shields.io/badge/경고-위 문서는 라이센스된 문서로 사외%20유출%20절대%20금지-red?style=flat-square)](#)
 
     2) SEMI 표준 문서와의 차이
         - [📊 SEMI 표준 문서와의 차이](./docs/SEMI/표준문서의차이.xlsx)
