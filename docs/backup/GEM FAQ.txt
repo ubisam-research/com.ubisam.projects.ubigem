@@ -1,0 +1,49 @@
+GEM 대응 FAQ
+1. alarm 보고
+-- 확인 사항 1. data dictionary 의 alid 항목의 format 확인
+-------- format: I1 으로 설정 후 128 이상 값을 id로 사용
+-------- format: U1 으로 설정 후 256 이상 값을 id로 사용
+-- 확인 사항 2. alcd 값 확인
+-------- alcd는 B 타입 고정(0~255), 최상위 비트를 alarm 발생 유무로 사용함
+-------- alcd를 127 이상 255 이하로 설정할 경우 alarm clear 보고 할 수 없음
+-------- alcd를 255 초과 값 설정할 경우 data convert(int to byte) 발생하여 보고 안됨
+
+2. SV, DVVal 차이
+-- 안내 사항. SV는 설비 상태, DVVal은 VID의 보고 값(검사 결과 등)
+-------- SV는 어플리케이션이 가동중인 경우 항상 값을 가지고 있어야 함
+-------- DVVal은 CE 보고 시에만 유효한 값
+
+3. Variable 중 List Type 세부구조 설정 법
+-- 안내 사항. 각 언어별 샘플 코드 OnVariableUpdateRequest 이벤트 핸들러 내에 주석으로 샘플 코드 있음. 해당 코드 참조하라고 하면 됨.
+
+-- 추가 사항. 코드를 작성하였는데 보고 시 L0(하위 아이템 없음)로 간다
+------- Variable의 VID 값이 설정 되지 않은 경우이며, VID 값 정확히 코딩하라고 안내해야 함
+
+4. RemoteCommand에서 Nack 발생
+-- 상황 1. 샘플 코드에서는 임의로 Nack 발생 시키는 경우가 있음.
+------- 샘플 코드 참조하여 Parameter 검증 후 Ack, Nack 정확한 처리 하라고 안내
+-- 상황 2. Nack Code 1번(Parameter 이름 없음) 발생
+------- Host에서 내려온 데이터와 UGC 파일 설정 데이터 비교 후 오타 확인 하라고 안내
+------- 대소문자 정확해야 함
+------- 엑셀내 Cell 데이터 복사 후 설정툴에서 붙여넣을 경우 앞 또는 뒤쪽에 ' '(space) 가 추가되는 경우 있음
+-- 상황 3. 2차원 이상 데이터(Parameter가 L 이고, CPVal도 L 인 경우)
+------- UGC 파일 설정 구조와 SECS2 로그에 수신데이터 구조 일치하는지 확인
+
+5. 통신 연결이 안됨
+-- 안내 사항 1. NIC의 IP 설정 확인
+-- 안내 사항 2. OS 방화벽 확인
+-- 안내 사항 3. UGC 파일의 IP, port 확인
+-- 안내 사항 4. Initialize 시 인자 중 ugc 파일 경로 확인
+-------- Application에서 사용하는 ugc 파일 경로와 설정툴에서 사용하는 ugc 파일 경로가 다른 경우가 있었음
+
+6. Socket 연결 후 바로 끊어짐
+-- 안내 사항 1. 방화벽 확인
+-- 안내 사항 2. Device ID 확인
+------- 연결 끊어지기 전 S9F1 로그가 있을 경우
+
+7. OnReceived 이벤트 발생 하지 않음
+-- SECS1 로그, SECS2 로그에서 Stream 번호 및 Function 번호 확인
+------ GEM 표준에서 사용하지 않는 Stream, Function인 경우가 현장 대응 시 있었음
+
+8. 한글 깨짐
+-- 안내 사항: OS의 언어(Encoding) 설정 확인
