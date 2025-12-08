@@ -11,7 +11,7 @@
     2) UbiCOM은 dist 폴더 내 UbiCOM_20250515.zip 화일을 고객에게 제공함
 
 3. 납품 절차
-    - [📊 납품 절차](./docs/3.UbiGEM_납품절차.pptx)
+    - [📊 납품 절차](./docs/3.UbiGEM_납품절차.md)
 
 4. AS 가이드
     - [📄 AS 가이드](./docs/4.UbiGEM_AS가이드.md)
