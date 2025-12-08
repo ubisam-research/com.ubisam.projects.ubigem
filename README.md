@@ -11,19 +11,16 @@
     2) UbiCOM은 dist 폴더 내 UbiCOM_20250515.zip 화일을 고객에게 제공함
 
 3. 납품 절차
-    - [📊 납품 절차](./docs/3.UbiGEM_납품절차.md)
+    - [📊 납품 절차](./docs/1.UbiGEM_납품절차.md)
 
 4. AS 가이드
-    - [📄 AS 가이드](./docs/4.UbiGEM_AS가이드.md)
+    - [📄 AS 가이드](./docs/2.UbiGEM_AS가이드.md)
 
 5. FAQ
-    - [📄 FAQ](./docs/5.UbiGEM_FAQ.md)
+    - [📄 FAQ](./docs/3.UbiGEM_FAQ.md)
 
 6. 교육 자료
-    - [📊 교육 Agenda](./docs/6.1_UbiGEM_교육Agenda.pptx)
-    - [📊 교육 자료](./docs/6.2_UbiGEM_교육자료.pptx)
-    - [📄 동영상 링크](./docs/6.3_UbiGEM개요_동영상링크.txt)
-
+    - [📄 교육 자료](./docs/4.UbiGEM_교육자료.md)
 
 7. Key Lock 관련
     1) 고객은 3시간동안 키락없이 사용할 수 있음 (3시간 지나면 연결 단절됨)
