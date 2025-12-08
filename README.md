@@ -37,7 +37,7 @@
     1) 키락 생셩 소스 구미팀에 확인 필요
     2) UbiGEM.PAC 소스 & 빌더는 구미팀에 추가 확인 필요
 
-## 📚 UbiCOM & UbiGEM 관련 문서
+## 📚 SEMI 관련 문서
 1. SEMI 문서
     1) SEMI 장비 통신 표준 문서 (SEMI Equipment Communications Standard)
         - [📄 SEMI E5](./docs/SEMI/KE005-00-0813.pdf)
