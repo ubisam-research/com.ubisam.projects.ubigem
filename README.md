@@ -17,7 +17,7 @@
     - [📄 AS 가이드](./docs/4.UbiGEM_AS가이드.md)
 
 5. FAQ
-    - [📄 FAQ](./docs/5.UbiGEM_FAQ.txt)
+    - [📄 FAQ](./docs/5.UbiGEM_FAQ.md)
 
 6. 교육 자료
     - [📊 교육 Agenda](./docs/6.1_UbiGEM_교육Agenda.pptx)
