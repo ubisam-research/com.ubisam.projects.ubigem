@@ -1,6 +1,6 @@
 # com.ubisam.projects.ubigem
 
-## 📚 소스 빌더 & 배포
+## 📚 소스 빌더/배포 및 AS 대응 가이드
 1. 빌드
     1) UbiGEM 기본 버전은 basic repository에서 빌드
     2) UbiGEM Pemtron 고객사 용은 pemtron repository에서 빌드
